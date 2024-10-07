@@ -1,7 +1,8 @@
 name: Initial commit workflow
 
 on:
-  repository_dispatch:
+  watch:
+    types: [started]
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
