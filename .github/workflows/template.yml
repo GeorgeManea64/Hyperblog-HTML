@@ -1,9 +1,7 @@
 name: Initial commit workflow
 
-on:
-  push:
-    branches:
-      - '**' 
+on: workflow_dispatch
+
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
